@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[create: Snehapawar222@gmail.com pwd: Sneha111]]>
+    </line>
+    <line>
+      <![CDATA[create: snehapawar333@gmail.com pwd: Sneha222]]>
+    </line>
+    <line>
+      <![CDATA[create: snehapawar444@gmail.com pwd: Sneha666]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65064" started-at="2020-01-09T15:27:18 IST" finished-at="2020-01-09T15:28:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65064" started-at="2020-01-09T15:27:18 IST" finished-at="2020-01-09T15:28:23 IST">
+      <class name="DataProviderGmail">
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:DataProviderGmail@67784306]" name="createUser" duration-ms="39557" started-at="2020-01-09T15:27:18 IST" data-provider="getData" finished-at="2020-01-09T15:27:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snehapawar222@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sneha111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[create: Snehapawar222@gmail.com pwd: Sneha111]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:DataProviderGmail@67784306]" name="createUser" duration-ms="12516" started-at="2020-01-09T15:27:57 IST" data-provider="getData" finished-at="2020-01-09T15:28:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snehapawar333@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sneha222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[create: snehapawar333@gmail.com pwd: Sneha222]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:DataProviderGmail@67784306]" name="createUser" duration-ms="12917" started-at="2020-01-09T15:28:10 IST" data-provider="getData" finished-at="2020-01-09T15:28:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snehapawar444@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sneha666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[create: snehapawar444@gmail.com pwd: Sneha666]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- DataProviderGmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
